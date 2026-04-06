@@ -128,7 +128,6 @@ Security Account                          Workload Account
 }
 ```
 
-> **Note:** Explicit role ARNs only — never use wildcards (`*`) in cross-account assume role policies.
 
 ### Assuming a Role (CLI)
 
@@ -221,14 +220,3 @@ CloudTrail events to alert on:
 - **AWS CLI** — Command-line testing and verification
 
 ---
-
-## References
-
-- [AWS Cross-Account Access Tutorial](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html)
-- [The Confused Deputy Problem](https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html)
-- [IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
-- [CloudTrail — AssumeRole events](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-event-reference.html)
-
----
-
-*Part of a Cloud Security Projects series — building real-world AWS security configurations from scratch.*
